@@ -8,4 +8,5 @@ add_executable(aoc2019
         02.cpp
         03.cpp
         04.cpp
+        05.cpp
         )
