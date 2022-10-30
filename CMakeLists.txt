@@ -13,4 +13,5 @@ add_executable(aoc2019
         07.cpp
         08.cpp
         09.cpp
+        10.cpp
         )
