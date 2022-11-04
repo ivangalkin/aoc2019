@@ -15,9 +15,9 @@
 #define ASSERT_EQ(a, b) \
    { __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
-     if (a != b)       \
+     if (_a != _b)       \
      {                 \
-       std::cout << a << " != " << b << std::endl; \
+       std::cout << _a << " != " << _b << std::endl; \
        assert(0);                  \
      }                  \
      }
