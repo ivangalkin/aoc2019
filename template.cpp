@@ -13,14 +13,14 @@
 #include <algorithm>
 
 #define ASSERT_EQ(a, b) \
-   { __typeof__ (a) _a = (a); \
+   do { __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
      if (_a != _b)       \
      {                 \
        std::cout << _a << " != " << _b << std::endl; \
        assert(0);                  \
      }                  \
-     }
+     }while(0)
 
 
 int _main() {
